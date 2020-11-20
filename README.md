@@ -1,45 +1,57 @@
-
-
-O grupo internacional de cientistas que anunciou, em setembro, a descoberta de fosfina na atmosfera de Vênus - um importante indicador de presença de vida - publicou uma revisão dos dados na terça-feira (17) menos animadora: eles confirmaram a presença dos gás no planeta, mas em uma quantidade cerca de sete vezes menor do que a estimativa anterior.
-
-    Vida em Vênus: o que é a fosfina, a substância tóxica e malcheirosa encontrada nas nuvens do planeta
-    Atmosfera ácida e temperaturas altíssimas de Vênus podem ser o futuro da Terra, dizem astrônomos
-
-O novo artigo, publicado no site da Cornell University, de Nova York, explica que, ao revisar parte dos dados da pesquisa original, os cientistas encontraram um erro de processamento no conjunto de dados de um dos telescópios usados para observar a superfície de Vênus.
-
-Liderado pela astrônoma Jane Greaves, professora da Universidade de Cardiff, no Reino Unido, o grupo procurava por fosfina em Vênus desde 2016 por meio de dois telescópios, um no Havaí, EUA, e outro no Atacama, no Chile.
-
-Segundo a revista científica "Nature", Greaves e sua equipe decidiram revisar o estudo depois que descobriram que os dados captados originalmente pelos telescópios sofreram interferência.
-
-Com a revisão, os níveis médios de fosfina em Vênus seriam cerca de uma parte por bilhão, sete vezes menor que o anunciado pelos cientistas inicialmente. Nas palavras dos cientistas, o que se acreditava ser uma grande quantidade mostrou-se uma "assinatura espectral de fosfina".
-
-“Temos trabalhado como loucos”, disse Greaves em uma reunião com pesquisadores da NASA, em 17 de novembro, de acordo com a "Nature".
-
-    Uma das cientistas do grupo, a professora do MIT, nos Estados Unidos, Sara Seagers, postou o novo artigo em suas redes sociais e afirmou que os dados "recalibrados são menos ruidosos do que o original".
-
-Em setembro, Seagers já havia mostrado ponderação ao anunciar a descoberta do gás na atmosfera venusiana.
-
-"Estamos animados com a descoberta", disse Seager na época. "Mas não estamos afirmando que encontramos vida em Vênus", destacou.
-
-    Cássio Barbosa: Vênus poderia ter sido habitável no passado?
-    LUA: o que explica a existência de ferrugem no satélite natural da Terra
-    MARTE: conheça o brasileiro que faz parte de missão da Nasa que leva drone à superfície do planeta vermelho
-
-O artigo original foi publicado em 14 de setembro na "Nature". Ele explica que a descoberta da fosfina em Vênus é surpreendente porque as condições na superfície do planeta são hostis à vida. Já a fosfina, por outro lado, é um gás que dificilmente seria produzido espontaneamente.
-
-Além disso, a acidez das nuvens venusianas podem destruir rapidamente o gás na atmosfera, indicando que ele - na quantidade anterior observada - provavelmente seria produzido de maneira constante.
-
-A fosfina é um gás que existe na Terra. Por aqui, ele precisa da atividade humana ou microbiana para ser produzido. Por isso, a descoberta sugere - ainda, mesmo que menos evidente agora, segundo a revisão - que Vênus pode hospedar vida microbiana.
-Astrônomos identificam possível presença de vida no planeta Vênus
-
-Astrônomos identificam possível presença de vida no planeta Vênus
-
-Diferenças da fosfina da Terra e de Vênus
-
-A fosfina existente na atmosfera terrestre é produzida por micróbios anaeróbicos (que não precisam de oxigênio) ou pela atividade industrial.
-
-Em Vênus, os cientistas acreditam que a fosfina, encontrada mais especificamente nas nuvens do planeta, pode ter origem em processos fotoquímicos ou geoquímicos desconhecidos. Eles ainda não conseguiram identificar a fonte.
-
-    "Há duas possibilidades: pode haver alguma reação completamente desconhecida que está criando fosfina em Vênus, ou, a mais excitante, pode ser vida", explicou William Bains, pesquisador do Instituto de tecnologia de Massachusetts (MIT), nos EUA, que também assina o artigo, em setembro.
-
-“Estamos procurando por sinais de vida em exoplanetas, procurando por gases que não esperamos que estejam lá e há muitas missões em busca de potenciais sinais de vida em nosso Sistema Solar”, informou Seager.
+<h6>IMED, G2, CV</h6>
+                                       <h5 align="center">COMO PODE-SE TREINAR UMA REDE PARA SER USADA NO PYTHON COM O CV2?</h5>
+  <ol>                    
+ <li>
+   <p align="justify">
+ O primeiro item da nossa lista e perguntar, o que permite um computador, por exemplo, identificar um ser um determinado objeto em uma image?
+ Uma das linhas de raciocinio que podemos seguir, e pensando que o computador pode memorizar o objeto que estamos tentando idenficar (vamos imaginar que queremos identificar          laranjas em uma imagem). Entao poriamos "servir" ao nosso computador uma serie de imagens de laranjas, para que ele as memorizasse e entao, sempre que servisimos uma imagem qualquer para o computador, ele nos disse se ha ou nao uma laranja na imagem. Bom, acontece que o computador conseguiria sim identificar laranjas em algumas imagens, quais imagens? As mesmas que fizemos ele memorizar as laranjas. Pois e, acontece que em todo esse processo o que estavamos fazendo era fazer nosso computador decorar algumas imagem que continham uma laranja. Nao percebemos que ao inves de fazer o computador decorar, deveriamos ter investido em uma abordagem que ensinase o computador a generalizar a laranja. Ihhhhhhh, parace com nosso proprio processo de aprendizagem nao parece? Quando decoramos algo, restringimos muito os casos onde podemos aplicar um conhecimento, mas quando aprendemos, e assim entendemos como generalizar algo, nossos casos de aplicacao aumentam e muito!!!!! Com o computador nao e diferente, e necessario fazer com que ele generalize a ideia de uma laranja ao inves de decorala. Ok eu ja escrevi um bocado de coisas, ta na hora de prosseguir em como podemos fazer isso.
+   </p>
+ </li>
+<li>
+  <p align="justify">
+    En <a href="https://www.python.org/">Python</a> podemos utilizar uma biblioteca chamada <a href="https://opencv.org/">OpenCV</a>(Open Computer Vision). Devemos ter python e OpenCV instalados em nossa maquina.
+    </p>
+</li>
+ <li>
+   <p>
+ Apos ambos estarem instalados em nossa maquina, devemos localizar uma pasta dentro do diretorio do OpenCV
+     <p align="center"><b>
+openCv\opencv\build\x64\vc14\bin ou openCv\opencv\build\x64\vc15\bin
+       </b></p>
+      <p align="justify">
+Qualquer uma dessas pastas contem executaveis que vamos utilizar depois. Para tornar nossa vida mais facil podemos adicinar um dos dois paths como uma variavel de ambiente em nosso sistema, isso vai nos poupar de ter que digitar o path completo para termos acesso aos executaveis depois.
+     </p>
+   </p>
+</li>
+<li>
+  <p align="justify">
+Para permitir nosso computador generlizar algum objeto, temos que escolher um objeto. Feito isso, nos precisamos buscar por variassssss... imagens desse objeto na imagem. Pense em um adulto apontando para um objeto e dizendo para uma crianca o que e aquele objeto, nos temos que agir como esse adulto, buscar por varias imagens e apontar para o nossa crianca, computador, o que elas sao. Para nao ter que ter o servico de procuar imagem por imagem na internet e levar um tempao fazendo isso, podemo buscar por data sets de determinada objeto, que sao conjuntos bem grandes de imagens contentendo aquele objeto. Esse conjunto de imagens contendo o objeto que queremos mostrar ao nosso computador e chamado de imagens positivas.
+  </p>
+</li>
+<li>
+  <p align="justify">
+Com as imagens positivas em maos, ta na hora de nos como adultos ensinarmos a nossa crianca, computador, o que nao e o objeto que desejamos identificar. E para isso nos presiamos de outro data set de imagens que nao contenham o objeto que desejamos que o computador identifique, esse conjunto de imagens formam nosso conjunto de imagens negativas para identificacao.
+  </p>
+</li>
+<li>
+  <p align="justify">
+Vamos voltar a falar sobre nossas imagens postivas, e bem provavel que elas nao sejam compostas somente do objeto que desejamos identificar, certo? Pois e, isso nao e um problema, mas adicina um passo em nosso processo, temos que passar por cada uma das imagens positivas e marcar a(s) ocorrencia(s) de nosso objeto. Que trabalhao! Mas para facilitar um pouco nossa vida nesse processo vamos utilizar nosso primeiro executavel do OpenCV, vamos utilizar o <a href="https://docs.opencv.org/3.4/dc/d88/tutorial_traincascade.html"><b>opencv_annotation</b></a>(que esta nos diretorios comentados antes) para passar por cada uma de nossas imagens positivas(sim, da trabalho mesmo!) e marcar a(s) ocorrencia(s) de nosso objeto. O <b>opencv_annotation</b> ira criar uma anotacao, como consta no proprio nome, a anotacao ira conter o nome da imagem a(s) ocorrencia(s) do nosso objeto e posicao dele na imagem, a anotacao sera gravada em um arquivo txt.
+  </p>
+</li>  
+<li>
+  <p align="justify">
+ Agora nos vamos utilizar mais um executavel do OpenCV, o <a href="https://docs.opencv.org/3.4/dc/d88/tutorial_traincascade.html"<b>opencv_createsamples</b></a> para finalmente ter nossa amostra positiva! Mas espera um pouco, a gente nao tinha feito isso no ultimo paso? Qual e a diferenca? Voce pode ter notado no passo anterior que algumas imagens continha mais do que uma ocorrencia do objeto desejado. Cada ocorrencia desse objeto e chamada de amostra, <b>opencv_createsamples</b> vai ler a anotacao criada por <b>opencv_annotation</b>, e quanto chegar em uma anotacao imagem_n_9234 9(ocorrencias do objeto) nas seguintes posicoes... <b>opencv_createsamples</b> vai pegar cada uma das ocorrencias na imagem de maneira individual e entao armazenar cada uma delas, uma por uma, em uma posicao unica em um vetor que e na verdade a saida do <b>opencv_createsamples</b>. Se voce observar quando rodar o <b>opencv_createsamples</b>, possivelmente vera que o numero de amostras e maior do que numero de imagens originais, por esse motivo mesmo, ele separa cada amostra individualmente e a aloca nesse vetor.
+  </p>
+</li>
+<li>
+  <p align="justify">
+Ja passamos por bastante coisa, e ate agora, nos que tivemos grande trabalho, e trabalho repetitivo nao e mesmo! Ta na hora de deixar o computador fazer a parte dele! E para isso nos vamos utilzar de nosso terceiro e ultimo executavel do OpenCV <a href="https://docs.opencv.org/3.4/dc/d88/tutorial_traincascade.html"><b>opencv_traincascade</b></a>. E ali que a "magica" acontece, nos vamos passar nosso vetor originado no passo anterior alem de indicar o diretorio das imagens negativas, juntamento com alguns outros argumentos para o <b>opencv_traincascade</b> para entao finalmente deixar com que o computador comece a generalizar o nosso objeto! E e isso mesmo que que o </b>opencv_traincascade</b> faz, gera um arquivo xml contendo a generalizacao do nosso objeto(pelo menos uma generalizacao na lingua do nosso computador).Quanto maior a quantidade de dados positivos, negativos e o tempo que deixarmos o nosso computador aprendendo a generalizar o nosso objeto, melhor serao os nossos resultados.
+  </p>
+</li>
+<li>
+  <p align="justify">
+So mais umas coisinhas antes de finalizar, quando percebemos que as temos que servir nosso computador de mais de mil imagens de um determinado objeto para obter um resultado mais confiavel, e facil pensarmos que ele ira memorizar essas mil ou mais imagens. Mas nao! Mesmo que servissemos nosso computador com mil, cem mil... imagens se estivessemos apenas o fazendo memorizar o conteudo, ele nunca seria capaz de identificar alguma variacao mesmo que minima das imagens. O processo feito ate agora e feito para permitir o computador generalizar imagens, para que a partir das nossas imagens servidas ele consiga identificar varias variacoes delas em outras imagems. Entao isso significa que ele vai conseguir identificar todas variacoes? Nao! Mas significa que teremos um resultado muito mais eficiente do que uma decoreba bruta.
+  </p>
+</li>
+</ol>
+<span align="center"><b>Gabriel Sordi Damo</b></span>
